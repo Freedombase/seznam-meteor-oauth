@@ -1,0 +1,14 @@
+{
+  "packages": {
+    "accounts-base": {
+      "oauthSecretKey": "I6qNHqk84wFfPIZkKH449A=="
+    },
+    "service-configuration": {
+      "seznam": {
+        "clientId": "55fad0a86f5d28bd98ddcda459f3dc23ad83bf43042e2e78",
+        "secret": "915d1ba22d4adc37c259e7174d4b47190ef86321c721b450",
+        "scopes": ["identity", "avatar", "adulthood"]
+      }
+    }
+  }
+}

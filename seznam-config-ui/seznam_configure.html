@@ -1,0 +1,14 @@
+<template name="configureLoginServiceDialogForSeznam">
+    <p>
+        First, you'll need to get a Seznam Client ID and Client Secret. Follow these steps:
+    </p>
+    <ol>
+        <li>
+            Visit <a href="https://vyvojari.seznam.cz/oauth/admin" target="_blank">https://vyvojari.seznam.cz/oauth/admin</a>
+            and create a new application
+        </li>
+        <li>
+            Set Authorization redirect URI to: <span class="url">{{siteUrl}}_oauth/seznam</span>
+        </li>
+    </ol>
+</template>
